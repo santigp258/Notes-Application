@@ -18,6 +18,9 @@ body {
   color: rgb(0, 0, 0) !important;
 }
 
+.activation {
+  border-bottom: 2px solid #fe4918;
+}
 /* INDEX */
 div.box {
   -webkit-box-shadow: 20px -13px 30px -2px rgba(8, 8, 8, 0.75);
@@ -28,23 +31,20 @@ div.box {
 div.head {
   background-color: rgb(12, 0, 0);
   cursor: pointer;
+  transition: all 1s ease;
 }
 div.head:hover {
-  background-color: #fe4918;
+  background-color: #333333;
 }
+
 div.head h4 {
   color: #fff;
 }
 
-div.head h4:hover {
-  color: rgb(0, 0, 0);
-  border-bottom: 2px solid #000000;
+.button-submit{
+  transition: all 1s ease;
 }
 
-.button-submit:hover {
-  color: #000 !important;
-  background-color: #fe4918 !important;
-}
 
 /* NOTES */
 
@@ -129,6 +129,16 @@ div.head-edit h4 {
   color: #fff;
 }
 
+input.update{
+  background-color: rgb(153, 7, 7);
+  color: #fff;
+  transition: all 1s ease;
+}
+input.update:hover{
+  background-color: #000000;
+  color: #fff;
+}
+
 div.head-edit h4:hover {
   color: rgb(255, 255, 255);
 }
@@ -141,10 +151,6 @@ div.head-edit h4:hover {
   font-size: 1.8em;
 }
 /* NAV */
-
-.nav-span {
-  border-bottom: 2px solid #fe4918;
-}
 
 .nav-span {
   transition: all 1s ease;
