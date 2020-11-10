@@ -30,7 +30,7 @@ if (isset($_POST['update'])) {
         <div class="col-md-6" style="text-align:center; margin: 0 auto">
             <div class="card box mt-4">
                 <div class="card-header head-edit">
-                    <h4>Edit Note</h4>
+                    <h4 class="h4-edit">Edit Note</h4>
                 </div>
                 <form action="edit.php?id=<?php echo $id ?>" method="POST" id="note-form" class="card-body">
                     <div class="form-group">

@@ -14,9 +14,9 @@ body {
 /* GLOBAL */
 
 .descrip {
-    background-color: rgb(237, 237, 237) !important;
-    color: rgb(0, 0, 0) !important;
-  }
+  background-color: rgb(237, 237, 237) !important;
+  color: rgb(0, 0, 0) !important;
+}
 
 /* INDEX */
 div.box {
@@ -27,7 +27,6 @@ div.box {
 
 div.head {
   background-color: rgb(12, 0, 0);
-  transition: all 1s ease;
   cursor: pointer;
 }
 div.head:hover {
@@ -39,12 +38,12 @@ div.head h4 {
 
 div.head h4:hover {
   color: rgb(0, 0, 0);
-border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
-.button-submit:hover{
-  color: #000!important;
-  background-color: #fe4918!important;
+.button-submit:hover {
+  color: #000 !important;
+  background-color: #fe4918 !important;
 }
 
 /* NOTES */
@@ -84,7 +83,7 @@ div.card-h:hover{
     rgb(71, 0, 112);
 }
  */
-div.card-h h5 {
+div.card-h h4 {
   color: #fff;
   text-align: center;
   margin-top: 10px;
@@ -119,34 +118,56 @@ div.box-notes {
 /* EDIT */
 
 div.head-edit {
-    background-color: rgb(153, 7, 7);
-    transition: all 1s ease;
-    cursor: pointer;
-  }
-  div.head-edit:hover {
-    background-color: #000000;
-  }
-  div.head-edit h4 {
-    color: #fff;
-  }
-  
-  div.head-edit h4:hover {
-    color: rgb(255, 255, 255);
-  }
-.alert-yet{
-    min-height: 300px;
-    font-size: 1.5em;
+  background-color: rgb(153, 7, 7);
+  transition: all 1s ease;
+  cursor: pointer;
+}
+div.head-edit:hover {
+  background-color: #000000;
+}
+div.head-edit h4 {
+  color: #fff;
 }
 
-.alert-yet h4{
-    font-size: 1.8em;
+div.head-edit h4:hover {
+  color: rgb(255, 255, 255);
+}
+.alert-yet {
+  min-height: 300px;
+  font-size: 1.5em;
+}
+
+.alert-yet h4 {
+  font-size: 1.8em;
 }
 /* NAV */
 
-.span{
-   color: #ff2f00!important;
+.nav-span {
+  border-bottom: 2px solid #fe4918;
 }
 
-.nav-span{
-    border-bottom: 2px solid #fe4918;
-} 
+.nav-span {
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.nav-span:hover {
+  background-color: #000000;
+  color: #fff !important;
+}
+.span {
+  color: #ff2f00 !important;
+}
+
+.nav-spant {
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.nav-spant:hover {
+  background-color: #000000;
+  color: #fff !important;
+}
+/* EDIT */
+
+.h4 {
+  border-bottom: 2px solid #ffffff;
+}

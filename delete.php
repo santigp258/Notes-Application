@@ -1,12 +1,12 @@
-<?php  
+<?php
 require_once('includes/bdconnect.php');
 
-if(isset($_GET['id'])){
+if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $query = "DELETE FROM notas WHERE id = $id";
     $result = mysqli_query($conn, $query);
 
-    if(!$result){
+    if (!$result) {
         die("Query Failed");
     }
 
@@ -14,5 +14,3 @@ if(isset($_GET['id'])){
     $_SESSION['message_type'] = 'danger';
     header("Location: notes.php");
 }
-
-?>

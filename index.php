@@ -1,5 +1,5 @@
 <?php include_once('includes/header.php') ?>
-<?php include('includes/bdconnect.php');?>
+<?php include('includes/bdconnect.php'); ?>
 <div class="container cont">
   <!--APPLICATION-->
   <div id="App" class="row pt-5">
@@ -15,10 +15,12 @@
           </button>
         </div>
 
-      <?php session_unset();} //clear data session?>
+      <?php session_unset();
+      } //clear data session
+      ?>
       <div class="card box mt-4">
         <div class="card-header head">
-          <h4>New Note</h4>
+          <h4 class="h4">New Note</h4>
         </div>
         <form action="save.php" method="POST" id="note-form" class="card-body">
           <div class="form-group">

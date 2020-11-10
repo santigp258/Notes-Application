@@ -38,7 +38,7 @@ try {
         ?>
         <div class="card box-notes">
           <div class="card-header card-h">
-            <h5><?php echo $task['title']; ?></h5>
+            <h4 class="h4"><?php echo $task['title']; ?></h4>
           </div>
           <div class="card-body">
             <div class="form-group">
@@ -74,4 +74,4 @@ try {
     <?php } ?>
   </div>
 </div>
-  <?php include_once('includes/footer.php') ?>
+<?php include_once('includes/footer.php') ?>
