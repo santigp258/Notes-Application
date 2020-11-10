@@ -23,7 +23,7 @@ try {
                 $hour = $theDate->format('H:i:s');
             ?>
           <div class="card">
-            <div class="card-header" style="min-height: 60px; background-color:  rgba(147, 49, 174, 2);">
+            <div class="card-header card-h" >
               <h5 style="color: #fff; text-align:center"><?php echo $task['title'];?></h5> 
             </div>
             <div class="card-body">
@@ -36,12 +36,14 @@ try {
           <p> <i class="fas fa-calendar-times"></i> <?php echo $date  ?></p> 
           <p> <i class="fas fa-clock"></i> <?php echo $hour  ?></p> 
           </div>
-          <div style="width: 50%; margin: 0 auto">
-              <input style="min-width: 120px;" type="button" value="Edit" class="btn btn-success" name="edit" >
-              <input style="min-width: 120px;" type="button" value="Delete" class="btn btn-danger" name="delete">
+          <div class="row justify-content-center ">
+              <input type="button" value="Edit" class="btn btn-success  col-4 mr-3" name="edit" >
+              <input type="button" value="Delete" class="btn btn-danger col-4" name="delete">
           </div>
           </div>
         </div>
       </div>
       <?php } ?>
     </div>
+
+<?php include_once('includes/footer.php') ?>

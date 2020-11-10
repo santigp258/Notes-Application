@@ -16,7 +16,7 @@
         </div>
 
       <?php session_unset();} //clear data session?>
-      <div class="card">
+      <div class="card box">
         <div class="card-header">
           <h4>New Note</h4>
         </div>
@@ -33,5 +33,4 @@
     </div>
   </div>
 </div>
-
 <?php include_once('includes/footer.php') ?>
