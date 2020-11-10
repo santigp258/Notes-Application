@@ -118,7 +118,7 @@ div.box-notes {
 /* EDIT */
 
 div.head-edit {
-  background-color: rgb(153, 7, 7);
+  background-color: rgba(65, 1, 104, 0.79);
   transition: all 1s ease;
   cursor: pointer;
 }
@@ -130,7 +130,7 @@ div.head-edit h4 {
 }
 
 input.update{
-  background-color: rgb(153, 7, 7);
+  background-color: rgba(65, 1, 104, 0.79);
   color: #fff;
   transition: all 1s ease;
 }
@@ -149,6 +149,10 @@ div.head-edit h4:hover {
 
 .alert-yet h4 {
   font-size: 1.8em;
+}
+
+.h4 {
+  border-bottom: 2px solid #ffffff;
 }
 /* NAV */
 
@@ -172,8 +176,4 @@ div.head-edit h4:hover {
   background-color: #000000;
   color: #fff !important;
 }
-/* EDIT */
 
-.h4 {
-  border-bottom: 2px solid #ffffff;
-}

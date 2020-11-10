@@ -14,8 +14,8 @@ class Note {
         div.appendChild(document.createTextNode(message));
         //Showing in DOM
         const cont = document.querySelector('.cont');
-        const app = document.querySelector('#App');
-        cont.insertBefore(div, app);
+        const card = document.querySelector('.card-child');
+        cont.insertBefore(div, card);
         setTimeout(function(){
             document.querySelector('.alert').remove();
         },3000);
@@ -31,12 +31,13 @@ class Note {
   
       const ui = new UI();
       if(title == "" || description == ""){
-          if(title == "" && description == ""){
-            message = ui.showMessage('Complete all fields', 'danger');
+          
+            if(title == "" && description == ""){
+            message = ui.showMessage('Complete the information correctly into all fields', 'danger');
           }else if(description == ""){
-            message = ui.showMessage('Complete field description', 'danger');
+            message = ui.showMessage('Complete the information correctly into Title field', 'danger');
           }else if(title == ""){
-            message = ui.showMessage('Complete field title', 'danger');
+            message = ui.showMessage('Complete the information correctly into Description field', 'danger');
           }
          e.preventDefault();
          return message;

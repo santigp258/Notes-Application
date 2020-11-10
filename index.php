@@ -1,9 +1,9 @@
 <?php include_once('includes/header.php') ?>
 <?php include('includes/bdconnect.php'); ?>
-<div class="container cont">
+<div class="container">
   <!--APPLICATION-->
   <div id="App" class="row pt-5">
-    <div class="col-md-6" style="text-align:center; margin: 0 auto">
+    <div class="col-md-6 cont" style="text-align:center; margin: 0 auto">
       <?php
       if (isset($_SESSION['message'])) {
       ?>
@@ -18,7 +18,7 @@
       <?php session_unset();
       } //clear data session
       ?>
-      <div class="card box mt-4">
+      <div  class="card box mt-4 card-child">
         <div class="card-header head">
           <h4 class="h4">New Note</h4>
         </div>

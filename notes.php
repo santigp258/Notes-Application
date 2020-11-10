@@ -66,7 +66,7 @@ try {
       <div class="container">
         <div class="alert alert-dark alert-yet" role="alert">
           <h4 class="alert-heading">There isn't notes yet!</h4>
-          <p>Please, add your notes. For add notes, please <a href="index.php" class="span">click here</a>. </p>
+          <p>Please, add your notes. For add notes, <a href="index.php" class="span">click here</a>. </p>
           <hr>
           <p class="mb-0">With something simple you can create good things. santigp258</p>
         </div>

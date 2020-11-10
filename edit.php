@@ -24,25 +24,28 @@ if (isset($_POST['update'])) {
 
 ?>
 <?php include_once('includes/header.php') ?>
-<div class="container cont">
-    <!--APPLICATION-->
-    <div id="App" class="row pt-5">
-        <div class="col-md-6" style="text-align:center; margin: 0 auto">
-            <div class="card box mt-4">
-                <div class="card-header head-edit">
-                    <h4 class="h4-edit">Edit Note</h4>
-                </div>
-                <form action="edit.php?id=<?php echo $id ?>" method="POST" id="note-form" class="card-body">
-                    <div class="form-group">
-                        <input type="text" id="title" placeholder="Task Title" class="form-control descrip" name="title" value="<?php echo $task['title']; ?>" />
-                    </div>
-                    <div class="form-group">
-                        <textarea id="description" name="descriptions" cols="30" rows="10" class="form-control descrip" placeholder="Add a Description"><?php echo $task['descriptions']; ?></textarea>
-                    </div>
-                    <input type="submit" value="Update" class="btn  btn-block update" name="update" />
-                </form>
-            </div>
+
+<div class="container">
+  <!--APPLICATION-->
+  <div id="App" class="row pt-5">
+    <div class="col-md-6 cont" style="text-align:center; margin: 0 auto">
+      <div  class="card box mt-4 card-child">
+        <div class="card-header head-edit">
+          <h4 class="h4-edit">Edit Note</h4>
         </div>
+        <form action="edit.php?id=<?php echo $id ?>" method="POST" id="note-form" class="card-body">
+          <div class="form-group">
+            <input type="text" id="title" placeholder="Note Title" class="form-control descrip" name="title"  value="<?php echo $task['title']; ?>" />
+          </div>
+          <div class="form-group">
+            <textarea id="description" name="descriptions" cols="30" rows="10" class="form-control descrip" placeholder="Add a Description"><?php echo $task['descriptions']; ?></textarea>
+          </div>
+          <input type="submit" value="Update" class="btn btn-primary btn-block update" name="update" />
+        </form>
+      </div>
     </div>
+    </div>
+  </div>
 </div>
+
 <?php include_once('includes/footer.php') ?>
