@@ -36,9 +36,13 @@ try {
           <p> <i class="fas fa-calendar-times"></i> <?php echo $date  ?></p> 
           <p> <i class="fas fa-clock"></i> <?php echo $hour  ?></p> 
           </div>
-          <div class="row justify-content-center ">
-              <input type="button" value="Edit" class="btn btn-success  button-edit col-4 mr-3" name="edit" >
-              <input type="button" value="Delete" class="btn btn-danger button-delete col-4" name="delete">
+          <div class="form-group float-right">
+              <a href="edit.php?id=<?php echo $task['id'] ?>" class="btn btn-success button-edit mr-3" >
+                <i class="fas fa-marker"></i>            
+            </a>
+              <a href="delete.php?id=<?php echo $task['id'] ?>" class="btn btn-danger button-delete" name="delete">
+              <i class="far fa-trash-alt"></i>
+            </a>
           </div>
           </div>
         </div>
