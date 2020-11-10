@@ -10,7 +10,7 @@ if (isset($_GET['id'])) {
         die("Query Failed");
     }
 
-    $_SESSION['message'] = 'Task removed Successfully';
+    $_SESSION['message'] = 'Note removed Successfully';
     $_SESSION['message_type'] = 'danger';
     header("Location: notes.php");
 }

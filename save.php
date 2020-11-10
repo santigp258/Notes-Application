@@ -8,7 +8,7 @@
         $stm->execute();
         $stm->close();
 
-        $_SESSION['message'] = 'Task Saved Succesfull';
+        $_SESSION['message'] = 'Note Saved Succesfull';
         $_SESSION['message_type'] = 'success';
         //header("Refresh:0, url=index.php");
         header("Location: index.php");

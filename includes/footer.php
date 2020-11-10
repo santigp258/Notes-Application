@@ -13,7 +13,7 @@
         <div class="Acerca-de">
             <h5>Technologies <span>used</span></h5>
             <p>In this app used the following Technologies:
-                <span>HTML5 </span>, CSS3, <span>Bootstrap4</span>, JavaScript, <span>PHP</span> & MySQL.
+                <span>HTML5 </span>, CSS3, <span>Bootstrap4</span>, JavaScript, <span>PHP</span> jQuery & <span>MySQL</span>.
             </p>
 
         </div>
@@ -34,12 +34,11 @@
 
 </footer>
 <!--SCRIPTS-->
-
 <script src="jquery.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 <script src="js/identifier.js"></script>
-<script src="App.js"></script>
+<script src="js/app.js"></script>
 </body>
 
 </html>
