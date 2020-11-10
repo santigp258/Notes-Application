@@ -27,7 +27,7 @@
           <div class="form-group">
             <textarea id="description" name="descriptions" cols="30" rows="10" class="form-control descrip" placeholder="Add a Description"></textarea>
           </div>
-          <input type="submit" value="Save" class="btn btn-primary btn-block" name="submit" />
+          <input type="submit" value="Save" class="btn btn-primary btn-block button-submit" name="submit" />
         </form>
       </div>
     </div>

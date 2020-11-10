@@ -1,3 +1,38 @@
+<footer class="site-footer">
+
+    <div class="container-footer clearfix">
+
+        <div class="footer-informacion">
+            <h5>About <span>App</span></h5>
+
+            <p> The function of this application is save your tasks and
+                user experience be a nice.
+            </p>
+        </div>
+        <!--footer informacion-->
+        <div class="Acerca-de">
+            <h5>Technologies <span>used</span></h5>
+            <p>In this app used the following Technologies:
+                <span>HTML5 </span>, CSS3, <span>Bootstrap4</span>, JavaScript, <span>PHP</span> & MySQL.
+            </p>
+
+        </div>
+        <div class="menu">
+            <h5>Git<span>Hub</span> repository</h5>
+            <nav class="social-network">
+                <a href="https://github.com/santigp258" target="_blank"><i class="fab fa-github"></i></i></a>
+            </nav>
+        </div>
+
+    </div>
+    <!--container-footer-->
+
+    <p class="copyright">
+        Task App 2020 &copy;
+    </p>
+    <!--Cambio en el nombre-->
+
+</footer>
 <!--SCRIPTS-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

@@ -64,14 +64,14 @@ try {
 
     <?php if (mysqli_num_rows($result) < 1) { ?>
       <div class="container">
-        <div class="alert alert-dark" role="alert">
+        <div class="alert alert-dark alert-yet" role="alert">
           <h4 class="alert-heading">There isn't tasks yet!</h4>
-          <p>Please, add your tasks. The function of this application is save your tasks and user experience be a nice. For add tasks please <a href="index.php" class="alert-link">click here</a>.</p>
+          <p>Please, add your tasks. For add tasks, please <a href="index.php" class="span">click here</a>. </p>
           <hr>
           <p class="mb-0">With something simple you can create good things. santigp258</p>
         </div>
       </div>
     <?php } ?>
   </div>
-
+</div>
   <?php include_once('includes/footer.php') ?>

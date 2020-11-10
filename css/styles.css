@@ -31,7 +31,7 @@ div.head {
   cursor: pointer;
 }
 div.head:hover {
-  background-color: #c4bfbf;
+  background-color: #fe4918;
 }
 div.head h4 {
   color: #fff;
@@ -39,6 +39,12 @@ div.head h4 {
 
 div.head h4:hover {
   color: rgb(0, 0, 0);
+border-bottom: 2px solid #000000;
+}
+
+.button-submit:hover{
+  color: #000!important;
+  background-color: #fe4918!important;
 }
 
 /* NOTES */
@@ -48,7 +54,7 @@ div.card-h {
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: rgb(66, 1, 72);
+  background: #230037;
   border: 2px solid;
   border-color: #000000;
   position: relative;
@@ -127,5 +133,20 @@ div.head-edit {
   div.head-edit h4:hover {
     color: rgb(255, 255, 255);
   }
+.alert-yet{
+    min-height: 300px;
+    font-size: 1.5em;
+}
 
+.alert-yet h4{
+    font-size: 1.8em;
+}
+/* NAV */
 
+.span{
+   color: #ff2f00!important;
+}
+
+.nav-span{
+    border-bottom: 2px solid #fe4918;
+} 
