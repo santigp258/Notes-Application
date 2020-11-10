@@ -23,13 +23,13 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container identifier">
-      <a class="nav-link active navbar-brand nav-span" href="/notes-remake/">Note <span class="span">App</span></a>
+      <a class="nav-link active navbar-brand nav-span" href="/Notes-Application/">Note <span class="span">App</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-link active navbar-brand nav-spant ml-3" href="/notes-remake/notes.php">Notes <span class="sr-only">(current)</span></a>
+          <a class="nav-link active navbar-brand nav-spant ml-3" href="/Notes-Application/notes.php">Notes <span class="sr-only">(current)</span></a>
         </div>
       </div>
     </div>
