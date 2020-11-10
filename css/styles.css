@@ -10,15 +10,60 @@ body {
     #7f9793 100%
   );
 }
-
+/* index */
 div.box {
   -webkit-box-shadow: 20px -13px 30px -2px rgba(8, 8, 8, 0.75);
   -moz-box-shadow: 20px -13px 30px -2px rgba(8, 8, 8, 0.75);
   box-shadow: 20px -13px 30px -2px rgba(8, 8, 8, 0.75);
 }
 
+div.head{
+    background-color: rgb(12, 0, 0);
+}
+
+div.head h4{
+    color: #fff;
+}
+
+/* notes */
+
 div.card-h {
   min-height: 60px;
-  background-color: rgb(0, 0, 0);
+  background-color:  rgb(66, 1, 72);
+  cursor: pointer;
+}
+
+div.card-h:hover{
+    background-color:
+    rgb(71, 0, 112);
+}
+
+div.card-h h5 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.box-notes {
+  -webkit-box-shadow: -1px 7px 56px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 7px 56px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 7px 56px -1px rgba(0, 0, 0, 0.75);
+}
+
+.button-edit{
+    background-color: #006400!important;
+}
+
+.button-edit:hover{
+    background-color: #002c00!important;
+}
+
+.button-delete{
+    background-color: #af1111!important;
+
+}
+
+.button-delete:hover{
+    background-color: #4b0000!important;
 }
 

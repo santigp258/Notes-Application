@@ -22,9 +22,9 @@ try {
                 $date = $theDate->format('Y-m-d');
                 $hour = $theDate->format('H:i:s');
             ?>
-          <div class="card">
+          <div class="card box-notes">
             <div class="card-header card-h" >
-              <h5 style="color: #fff; text-align:center"><?php echo $task['title'];?></h5> 
+              <h5><?php echo $task['title'];?></h5> 
             </div>
             <div class="card-body">
           <div class="form-group">
@@ -37,8 +37,8 @@ try {
           <p> <i class="fas fa-clock"></i> <?php echo $hour  ?></p> 
           </div>
           <div class="row justify-content-center ">
-              <input type="button" value="Edit" class="btn btn-success  col-4 mr-3" name="edit" >
-              <input type="button" value="Delete" class="btn btn-danger col-4" name="delete">
+              <input type="button" value="Edit" class="btn btn-success  button-edit col-4 mr-3" name="edit" >
+              <input type="button" value="Delete" class="btn btn-danger button-delete col-4" name="delete">
           </div>
           </div>
         </div>
