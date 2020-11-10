@@ -18,16 +18,6 @@
     }
 
 
-endif?>
+endif
 
-<section class="seccion contenedor">
-<h2>Los registros han sido cerrados.</h2>
-
-
-<pre>
-<?php var_dump($_SESSION) ?>
-</pre>
-
-    
-
-</section>
+?>
