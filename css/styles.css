@@ -19,15 +19,22 @@ div.box {
 
 div.head{
     background-color: rgb(12, 0, 0);
+    transition: all 1s ease;
 }
-
+div.head:hover{
+    background-color: #C4BFBF;
+}
 div.head h4{
     color: #fff;
 }
 
+div.head h4:hover{
+    color: rgb(0, 0, 0);
+}
+
 /* notes */
 
-div.card-h {
+/* div.card-h {
   min-height: 60px;
   background-color:  rgb(66, 1, 72);
   cursor: pointer;
@@ -37,7 +44,30 @@ div.card-h:hover{
     background-color:
     rgb(71, 0, 112);
 }
-
+ */
+ div.card-h {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgb(66, 1, 72);
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+  }
+  div.card-h:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+  }
+  div.card-h:hover:before {
+  width: 100%;
+  }
 div.card-h h5 {
   color: #fff;
   text-align: center;
@@ -67,3 +97,11 @@ div.box-notes {
     background-color: #4b0000!important;
 }
 
+.descrip{
+    background-color: rgb(223, 223, 223)!important;
+    color: rgb(0, 0, 0)!important;
+}
+
+.min{
+    min-height: 200px;
+}

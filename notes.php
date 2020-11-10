@@ -28,7 +28,7 @@ try {
             </div>
             <div class="card-body">
           <div class="form-group">
-            <div class="form-control" style="min-height: 200px;"><?php 
+            <div class="form-control descrip min"><?php 
             echo $task['descriptions'];
             ?></div>
           </div>

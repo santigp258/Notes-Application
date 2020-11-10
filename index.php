@@ -22,10 +22,10 @@
         </div>
         <form action="save.php" method="POST" id="note-form" class="card-body">
           <div class="form-group">
-            <input type="text" id="title" placeholder="Task Title" class="form-control" name="title" />
+            <input type="text" id="title" placeholder="Task Title" class="form-control descrip" name="title" />
           </div>
           <div class="form-group">
-            <textarea id="description" name="descriptions" cols="30" rows="10" class="form-control" placeholder="Add a Description"></textarea>
+            <textarea id="description" name="descriptions " cols="30" rows="10" class="form-control descrip" placeholder="Add a Description"></textarea>
           </div>
           <input type="submit" value="Save" class="btn btn-primary btn-block" name="submit" />
         </form>
