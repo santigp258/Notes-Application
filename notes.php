@@ -68,7 +68,7 @@ try {
           <h4 class="alert-heading">There isn't notes yet!</h4>
           <p>Please, add your notes. For add notes, <a href="index.php" class="span">click here</a>. </p>
           <hr>
-          <p class="mb-0">With something simple you can create good things. santigp258</p>
+          <p class="mb-0">"With something simple you can create good things".</p>
         </div>
       </div>
     <?php } ?>

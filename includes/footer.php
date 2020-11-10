@@ -27,7 +27,7 @@
     <!--container-footer-->
 
     <p class="copyright">
-        Note App 2020 &copy;
+        Santigp258. Note App 2020 &copy;
     </p>
 
 </footer>
