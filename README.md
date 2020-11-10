@@ -1,5 +1,5 @@
 # Notes-Application
-Save your tasks
+Save your notes
 
 ![alt text](img/index.png)
 ![alt text](img/footer.png)
