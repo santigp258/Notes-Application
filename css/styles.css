@@ -110,6 +110,22 @@ div.box-notes {
   min-height: 200px;
 }
 
+/* EDIT */
 
+div.head-edit {
+    background-color: rgb(153, 7, 7);
+    transition: all 1s ease;
+    cursor: pointer;
+  }
+  div.head-edit:hover {
+    background-color: #000000;
+  }
+  div.head-edit h4 {
+    color: #fff;
+  }
+  
+  div.head-edit h4:hover {
+    color: rgb(255, 255, 255);
+  }
 
 
