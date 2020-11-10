@@ -42,9 +42,8 @@ try {
           </div>
           <div class="card-body">
             <div class="form-group">
-              <div class="form-control descrip min"><?php
-                                                    echo $task['descriptions'];
-                                                    ?></div>
+              <div class="form-control descrip min">
+                <?php echo $task['descriptions']; ?></div>
             </div>
             <div class="form-group">
               <p> <i class="fas fa-calendar-times"></i> <?php echo $date  ?></p>
@@ -59,6 +58,17 @@ try {
               </a>
             </div>
           </div>
+        </div>
+      </div>
+    <?php } ?>
+
+    <?php if (mysqli_num_rows($result) < 1) { ?>
+      <div class="container">
+        <div class="alert alert-dark" role="alert">
+          <h4 class="alert-heading">There isn't tasks yet!</h4>
+          <p>Please, add your tasks. The function of this application is save your tasks and user experience be a nice. For add tasks please <a href="index.php" class="alert-link">click here</a>.</p>
+          <hr>
+          <p class="mb-0">With something simple you can create good things. santigp258</p>
         </div>
       </div>
     <?php } ?>
