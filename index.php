@@ -18,7 +18,7 @@
       <?php session_unset();
       } //clear data session
       ?>
-      <div  class="card box mt-4 card-child">
+      <div class="card box mt-4 card-child">
         <div class="card-header head">
           <h4 class="h4">New Note</h4>
         </div>
@@ -33,7 +33,7 @@
         </form>
       </div>
     </div>
-    </div>
   </div>
+</div>
 </div>
 <?php include_once('includes/footer.php') ?>

@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <!-- FONT AWESOME-->
   <link rel="stylesheet" href="css/all.css">
-  <?php     
-    $archive = basename($_SERVER['PHP_SELF']); //retorna el nombre del archive actual
-    $pag = str_replace(".php", "", $archive);  //primero lo que quieres buscar, por qué reemplazar, y fuente de datos
+  <?php
+  $archive = basename($_SERVER['PHP_SELF']); //retorna el nombre del archive actual
+  $pag = str_replace(".php", "", $archive);  //primero lo que quieres buscar, por qué reemplazar, y fuente de datos
   ?>
 </head>
 

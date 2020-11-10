@@ -41,10 +41,9 @@ div.head h4 {
   color: #fff;
 }
 
-.button-submit{
+.button-submit {
   transition: all 1s ease;
 }
-
 
 /* NOTES */
 
@@ -129,12 +128,12 @@ div.head-edit h4 {
   color: #fff;
 }
 
-input.update{
+input.update {
   background-color: rgba(65, 1, 104, 0.79);
   color: #fff;
   transition: all 1s ease;
 }
-input.update:hover{
+input.update:hover {
   background-color: #000000;
   color: #fff;
 }
@@ -176,4 +175,3 @@ div.head-edit h4:hover {
   background-color: #000000;
   color: #fff !important;
 }
-
