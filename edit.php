@@ -23,9 +23,6 @@ if (isset($_POST['update'])) {
 }
 
 ?>
-<pre>
-<?php var_dump($_POST) ?>
-</pre>
 <?php include_once('includes/header.php') ?>
 
 <div class="container">
