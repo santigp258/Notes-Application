@@ -23,6 +23,9 @@ if (isset($_POST['update'])) {
 }
 
 ?>
+<pre>
+<?php var_dump($_POST) ?>
+</pre>
 <?php include_once('includes/header.php') ?>
 
 <div class="container">
@@ -40,7 +43,7 @@ if (isset($_POST['update'])) {
           <div class="form-group">
             <textarea id="description" name="descriptions" cols="30" rows="10" class="form-control descrip" placeholder="Add a Description"><?php echo $task['descriptions']; ?></textarea>
           </div>
-          <input type="submit" value="Update" class="btn btn-primary btn-block update" name="update" />
+          <input type="submit" value="update" class="btn btn-primary btn-block update" name="update" />
         </form>
       </div>
     </div>
