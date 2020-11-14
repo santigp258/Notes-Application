@@ -42,7 +42,7 @@ try {
           </div>
           <div class="card-body">
             <div class="form-group">
-              <div class="form-control descrip min">
+              <div class="descrip min">
                 <?php echo $note['descriptions']; ?></div>
             </div>
             <div class="form-group">
