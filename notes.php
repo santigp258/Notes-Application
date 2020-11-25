@@ -41,7 +41,7 @@ try {
             <h4 class="h4"><?php echo $note['title']; ?></h4>
           </div>
           <div class="card-body">
-            <div class="form-group">
+            <div>
               <div class="descrip min">
                 <?php echo $note['descriptions']; ?></div>
             </div>
@@ -75,3 +75,4 @@ try {
   </div>
 </div>
 <?php include_once('includes/footer.php') ?>
+lorem

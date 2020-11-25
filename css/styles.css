@@ -14,10 +14,13 @@ body {
 /* GLOBAL */
 
 .descrip {
-  background-color: rgb(237, 237, 237) !important;
-  color: rgb(0, 0, 0) !important;
+  background-color: rgb(237, 237, 237) ;
+  color: rgb(0, 0, 0) ;
   padding: 10px;
   text-align: justify;
+  overflow-y: scroll;
+  min-height: 330px;
+  max-height: 330px;
 }
 
 .activation {
