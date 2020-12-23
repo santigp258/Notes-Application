@@ -19,8 +19,6 @@ body {
   padding: 10px;
   text-align: justify;
   overflow-y: scroll;
-  min-height: 330px;
-  max-height: 330px;
 }
 
 .activation {
@@ -116,7 +114,8 @@ div.box-notes {
 }
 
 .min {
-  min-height: 200px;
+  min-height: 330px;
+  max-height: 330px;
 }
 
 /* EDIT */
